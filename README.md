@@ -24,6 +24,8 @@ To practice API testing concepts relevant to QA roles, including:
 | API_GET_001 | Retrieve user details | HTTP 200 and valid user details | Passed |
 | API_POST_001 | Create a test post | HTTP 201 and response fields match the request | Passed |
 | API_NEG_001 | Submit a post with an empty title | Verify whether the API rejects the empty title | API returned HTTP 201 and accepted the request |
+| API_GET_002 | Retrieve user details for user ID 3 | HTTP 200 and response ID is 3 | Passed |
+| API_NEG_002 | Retrieve a nonexistent user using ID 9999 | HTTP 404 and empty response body | Passed |
 
 ## Test Automation
 Postman assertions were used to validate:
