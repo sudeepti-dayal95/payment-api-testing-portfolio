@@ -33,6 +33,7 @@ Postman assertions were used to validate:
 - Presence of the response ID
 - Title matching the submitted request
 - User ID matching the submitted request
+- Negative testing for nonexistent users (HTTP 404 and empty response body)
 
 ## Important Limitation
 This project uses JSONPlaceholder, a public mock REST API. It is a practice project, not a real payment processing system. The empty-title scenario demonstrates how to observe and document API behavior; it is not a confirmed defect unless the API specification requires the title to be mandatory.
